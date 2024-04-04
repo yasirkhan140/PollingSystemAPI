@@ -3,6 +3,7 @@ import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import connectDB from "./db/index.js";
+import router from "./routes/index.js";
 
 // import env file
 dotenv.config({
@@ -26,6 +27,8 @@ app.use(
     credentials: true,
   })
 );
+// app.use router
+app.use("/", router);
 // limit on json
 app.use(express.json({ limit: "16kb" }));
 // url encoded
