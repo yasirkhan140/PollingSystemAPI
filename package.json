@@ -1,0 +1,23 @@
+{
+  "name": "polling_system_api",
+  "version": "1.0.0",
+  "description": "polling and voting option ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yasirkhan140/PollingSystemAPI.git"
+  },
+  "keywords": [
+    "polling",
+    "api"
+  ],
+  "author": "Yasir khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasirkhan140/PollingSystemAPI/issues"
+  },
+  "homepage": "https://github.com/yasirkhan140/PollingSystemAPI#readme"
+}
