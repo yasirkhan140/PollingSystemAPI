@@ -27,11 +27,11 @@ app.use(
     credentials: true,
   })
 );
-// app.use router
-app.use("/", router);
 // limit on json
 app.use(express.json({ limit: "16kb" }));
 // url encoded
 app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 // cookie parse to excess cokkie
 app.use(cookieParser());
+// app.use router
+app.use("/", router);
